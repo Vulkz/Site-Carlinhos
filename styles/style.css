@@ -1,0 +1,40 @@
+.apresentacao {
+    display: flex;
+    width: 100%;
+    padding: 5% 0%;
+    box-sizing: border-box;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+
+.apresentacao__imagem {
+    width: 30%;
+}
+
+.apresentacao__conteudo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.apresentacao__botao {
+    width: 20%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #FFFFFF;
+}
