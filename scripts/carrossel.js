@@ -2,15 +2,22 @@ const imagens = document.getElementById('img');
 const imagem = document.getElementsByClassName('item');
 
 let idx = 0;
+let direcao = true;
 
 function carrossel() {
-    idx++;
-
-    if(idx > imagem.length - 1){
-        idx = 0;
+    if(idx >= imagem.length - 1) {
+        direcao = false;
+    } else if(idx <= 0) {
+        direcao = true;
     }
 
-    imagens.style.transform = `translateX(${-idx * 100}%)`;
+    if(!direcao) {
+        idx--;        
+    } else {
+        idx++;
+    }
+
+    imagens.style.transform = `translateX(${idx * -100}%)`;
 }
 
 setInterval(carrossel, 5000);
