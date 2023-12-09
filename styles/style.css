@@ -1,3 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+.imagem {
+    object-fit: cover;
+    width: 100%;
+}
+
 .apresentacao {
     display: flex;
     width: 100%;
@@ -7,6 +21,24 @@
     gap: 5%;
     align-items: center;
 }
+
+/* apresentacao sobre */
+
+.apresentacao__sobre {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.apresentacao__conteudo__texto__sobre {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: #696969;
+}
+
+/* fim */
 
 .apresentacao__imagem {
     width: 30%;
@@ -20,6 +52,7 @@
 }
 
 .apresentacao__conteudo__titulo {
+    align-self: center;
     font-size: 2rem;
     font-family: sans-serif;
     font-weight: 800;
