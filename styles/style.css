@@ -1,7 +1,7 @@
 .apresentacao {
     display: flex;
     width: 100%;
-    padding: 5% 0%;
+    padding: 5% 0% 0% 0%;
     box-sizing: border-box;
     justify-content: center;
     gap: 5%;
@@ -37,4 +37,15 @@
     cursor: pointer;
     background-color: #000000;
     color: #FFFFFF;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-family: sans-serif;
+    background-color: #000000;
+    padding: 2%;
+    margin-top: 5%;
 }
