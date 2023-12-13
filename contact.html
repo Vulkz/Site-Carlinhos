@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbearia Carlinhos</title>
+    <title>Barbearia Carlinhos - Contatos</title>
     <link rel="stylesheet" href="./styles/nav.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -61,10 +61,13 @@
                 </div>
                 <div class="formulario">
                     <form action="https://formsubmit.co/gabrielcosta3536@gmail.com" method="POST">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+                        <input type="hidden" name="_captcha" value="false">
                         <div class="inputs__formulario">
                             <input type="text" name="name" placeholder="NOME" class="input">
                             <input type="email" name="email" placeholder="EMAIL" class="input">
                         </div>
+                        <input type="text" name="subject" placeholder="ASSUNTO" class="mensagem">
                         <textarea name="message" placeholder="MENSAGEM" class="mensagem"></textarea>
                         <button type="submit" class="enviar">ENVIAR</button>
                     </form>
