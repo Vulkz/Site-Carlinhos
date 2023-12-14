@@ -3,6 +3,38 @@
     padding: 0;
 }
 
+/* Navegação */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    padding: 20px;
+}
+
+.nav__itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav__item {
+    text-decoration: none;
+    padding-right: 3rem;
+    font-size: 1.2rem;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+.nav__item:hover {
+    color: #303030;
+} 
+
+/* Banner - Página Sobre e Contato*/
 .banner {
     width: 100%;
 }

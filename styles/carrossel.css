@@ -4,7 +4,7 @@
     width: 100%;
 }
 
-.container {
+.container_carrossel {
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
