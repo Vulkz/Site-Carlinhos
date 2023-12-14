@@ -61,7 +61,7 @@
                 <div class="formulario">
                     <h2 class="subtitulo ativo">Envie seu e-mail</h2>
                     <form action="https://formsubmit.co/gabrielcosta3536@gmail.com" method="POST">
-                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact.html">
                         <input type="hidden" name="_captcha" value="false">
                         <div class="inputs__formulario">
                             <input type="text" name="name" placeholder="NOME" class="input">
@@ -69,7 +69,7 @@
                         </div>
                         <input type="text" name="subject" placeholder="ASSUNTO" class="mensagem">
                         <textarea name="message" placeholder="MENSAGEM" class="mensagem"></textarea>
-                        <button type="submit" class="botao">ENVIAR</button>
+                        <button type="submit" class="botao" onclick="enviar()">ENVIAR</button>
                     </form>
                 </div>
             </div>
@@ -79,6 +79,8 @@
     <footer class="rodape">
         Desenvolvido por Gabriel (Vulkz).
     </footer>
+
+    <script src="./scripts/pop-up.js"></script>
 
 </body>
 </html>
