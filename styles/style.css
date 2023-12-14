@@ -24,7 +24,7 @@ header {
 
 .nav__item {
     text-decoration: none;
-    padding-right: 3rem;
+    margin-right: 3rem;
     font-size: 1.2rem;
     color: #000000;
     font-family: sans-serif;
@@ -245,5 +245,10 @@ header {
     .botao {
         margin: 0 auto;
         width: 150px;
+    }
+
+    .nav__item {
+        font-size: 1rem;
+        margin-right: 1rem;
     }
 }
