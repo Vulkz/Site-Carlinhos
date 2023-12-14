@@ -91,17 +91,16 @@ header {
     font-weight: 800;
 }
 
-
-/* Continuar Editando */
-.apresentacao__conteudo__texto {
+.texto {
     font-size: 1rem;
     font-family: sans-serif;
 }
 
-.apresentacao__botao {
-    width: 20%;
+.botao {
+    width: 100px;
     border: none;
-    padding: 10px;
+    margin-top: 10px;
+    padding: 12px;
     cursor: pointer;
     background-color: #da5400;
     color: #FFFFFF;
@@ -134,7 +133,13 @@ header {
     font-weight: 800;
 }
 
-.comunicacao {
+.contatos__org {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.contatos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -149,12 +154,6 @@ header {
 
 .imagem__cards {
     width: 20px;
-}
-
-.contatos__org {
-    display: flex;
-    justify-content: center;
-    gap: 3%;
 }
 
 .formulario {
@@ -198,8 +197,6 @@ header {
     padding: 5% 0 10% 0;
 }
 
-/* apresentacao sobre */
-
 .apresentacao__sobre {
     width: 70%;
     display: flex;
@@ -213,5 +210,3 @@ header {
     font-family: sans-serif;
     color: #696969;
 }
-
-/* fim */
