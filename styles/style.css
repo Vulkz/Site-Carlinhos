@@ -34,17 +34,36 @@ header {
     color: #303030;
 } 
 
-/* Banner - Página Sobre e Contato*/
-.banner {
+/* Carrossel - Página home */
+.carrossel {
+    box-shadow: 2px 2px 4px #000000;
+    overflow: hidden;
     width: 100%;
 }
 
-.imagem {
+.container_carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.item {
     object-fit: cover;
     width: 100%;
 }
 
-.apresentacao {
+/* Banner - Páginas Sobre e Contato*/
+.banner {
+    width: 100%;
+}
+
+.banner__imagem {
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Conteúdo */
+.container {
     display: flex;
     width: 100%;
     padding: 5% 0% 0% 0%;
@@ -54,42 +73,26 @@ header {
     align-items: center;
 }
 
-/* apresentacao sobre */
-
-.apresentacao__sobre {
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-}
-
-.apresentacao__conteudo__texto__sobre {
-    font-size: 1.5rem;
-    font-family: sans-serif;
-    color: #696969;
-}
-
-/* fim */
-
-.apresentacao__imagem {
+.imagem {
     width: 30%;
 }
 
-.apresentacao__conteudo {
+.container__conteudo {
     width: 40%;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.apresentacao__conteudo__titulo {
+.titulo {
     align-self: center;
     font-size: 2rem;
     font-family: sans-serif;
     font-weight: 800;
 }
 
+
+/* Continuar Editando */
 .apresentacao__conteudo__texto {
     font-size: 1rem;
     font-family: sans-serif;
@@ -194,3 +197,21 @@ header {
     font-family: sans-serif;
     padding: 5% 0 10% 0;
 }
+
+/* apresentacao sobre */
+
+.apresentacao__sobre {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.apresentacao__conteudo__texto__sobre {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: #696969;
+}
+
+/* fim */
