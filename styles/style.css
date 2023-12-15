@@ -42,14 +42,15 @@ header {
 }
 
 .container_carrossel {
+    width: 100%;
     display: flex;
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
 }
 
 .item {
-    object-fit: cover;
     width: 100%;
+    object-fit: cover;
 }
 
 /* Banner - Páginas Sobre e Contato*/
@@ -207,6 +208,70 @@ header {
 
 .ativo {
     display: none;
+}
+
+@media screen and (min-width: 1801px){
+    .rodape {
+        font-size: 1.5vh;
+    }
+    
+    .nav__item {
+        font-size: 2vh;
+    }
+    
+    .carrossel {
+        height: 50vh
+    }
+
+    .container_carrossel {
+        height: 100%;
+    }
+
+    .mensagem {
+        font-size: 2vh;
+        margin-top: 1vh;
+    }
+
+    .apresentacao__conteudo__texto__sobre {
+        font-size: 2vh;
+    }
+
+    .imagem__cards {
+        width: 2vh;
+    }
+
+    .input {
+        font-size: 2vh;
+        margin-top: 1vh;
+        height: auto;
+    }
+
+    .subtitulo {
+        font-size: 2vh;
+    }
+
+    .titulo__cards {
+        font-size: 2vh;
+    }
+
+    .botao {
+        margin-top: 1vh;
+        font-size: 2vh;
+        width: 20%;
+    }
+
+    .item {
+        object-fit: fill;
+    }
+
+    .titulo {
+        font-size: 3vh;
+    }
+
+    .texto {
+        font-size: 2vh;
+    }
+
 }
 
 @media screen and (max-width: 950px){
