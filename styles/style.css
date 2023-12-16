@@ -49,6 +49,7 @@ header {
 }
 
 .item {
+    width: 100%;
     object-fit: cover;
 }
 
@@ -210,6 +211,10 @@ header {
 }
 
 @media screen and (min-width: 1801px){
+    .item {
+        width: auto;
+    }
+
     .rodape {
         font-size: 1.5vh;
     }
