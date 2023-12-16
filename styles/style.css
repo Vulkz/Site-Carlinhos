@@ -58,6 +58,10 @@ header {
     width: 100%;
 }
 
+.banner__home {
+    display: none;
+}
+
 .banner__imagem {
     object-fit: cover;
     width: 100%;
@@ -217,10 +221,6 @@ header {
 }
 
 @media screen and (min-width: 1801px){
-    .item {
-        width: auto;
-    }
-
     .rodape {
         font-size: 1.5vh;
     }
@@ -230,12 +230,12 @@ header {
     }
     
     .carrossel {
-        width: 100vw;
-        height: 40vh
+        display: none;
     }
 
-    .container_carrossel {
-        height: 100%;
+    .banner__home {
+        width: 100%;
+        display: block;
     }
 
     .mensagem {
