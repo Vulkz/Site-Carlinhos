@@ -92,6 +92,12 @@ header {
     font-weight: 800;
 }
 
+.subtitulo__sobre {
+    align-self: center;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+}
+
 .texto {
     font-size: 1rem;
     font-family: sans-serif;
@@ -201,9 +207,9 @@ header {
 }
 
 .apresentacao__conteudo__texto__sobre {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: sans-serif;
-    color: #696969;
+    color: #000000;
 }
 
 .ativo {
@@ -252,6 +258,10 @@ header {
     }
 
     .subtitulo {
+        font-size: 2vh;
+    }
+
+    .subtitulo__sobre {
         font-size: 2vh;
     }
 
