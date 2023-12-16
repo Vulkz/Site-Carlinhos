@@ -220,7 +220,8 @@ header {
     }
     
     .carrossel {
-        height: 70vh
+        width: 100vw;
+        height: 40vh
     }
 
     .container_carrossel {
