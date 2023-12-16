@@ -8,6 +8,15 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.icone {
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 5rem;
+    border-radius: 100%;
 }
 
 .nav {
@@ -224,6 +233,10 @@ header {
     .rodape {
         font-size: 1.5vh;
     }
+
+    .icone {
+        height: 5vh;
+    }
     
     .nav__item {
         font-size: 2vh;
@@ -286,6 +299,11 @@ header {
 }
 
 @media screen and (max-width: 950px){
+    .icone {
+        height: 3rem;
+        margin: 0px;
+    }
+    
     .container {
         flex-direction: column;
     }
